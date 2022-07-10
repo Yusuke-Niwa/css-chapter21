@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.flex {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(3, 17, 140);
+}
+
+.logo {
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.actions {
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.smile {
+  font-size: 70px;
+  margin-top: 400px;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: left;
+}
+
+.relative {
+  position: relative;
+  width: 140vh;
+  height: 25vh;
+  background-color: rgb(3, 17, 140);
+}
+
+.absolute {
+  position: absolute;
+  bottom: 100px;
+  left: 725px;
+  width: auto;
+  height: 60vh;
+  
+}
